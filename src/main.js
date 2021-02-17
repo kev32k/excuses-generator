@@ -3,15 +3,15 @@ import "bootstrap";
 import "./style.css";
 
 window.onload = function() {
-  let who = ["The dog", "My grandma", "His turtle", "My bird"];
-  let action = ["ate", "peed", "crushed", "broke"];
-  let what = ["my homework", "the keys", "the car"];
+  let who = ["Mi perro", "Mi abuela", "La tortuga", "Mi gato"];
+  let action = ["se comió", "se orinó", "rompio", "daño"];
+  let what = ["mi tarea", "mis llaves", "el carro", "mi computadora"];
   let when = [
-    "before the class",
-    "right on time",
-    "when I finished",
-    "during my lunch",
-    "while I was praying"
+    "antes de clases",
+    "justo a tiempo",
+    "cuando terminé",
+    "durante mi almuerzo",
+    "mientras paseaba"
   ];
 
   let var1 = who[Math.round(Math.random() * (who.length - 1))];
